@@ -5,5 +5,5 @@ git clone https://github.com/FryMondo/lab2.git
 ```
 Or copy code from file and launch it
 ```
-src/lab1.java
+src/lab2.java
 ```
