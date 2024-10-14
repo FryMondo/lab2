@@ -11,8 +11,8 @@ public class lab2 {
 
             // Виводимо текст в якому прибирається останній символ в слові, окрім слів в яких 1 символ
             System.out.println(delLetter.deleteLetter(text.trim()));
-        } catch (Exception e) {
-            System.out.println(e);
+        } catch (IllegalArgumentException e) {
+            System.out.println(e.getMessage());
         }
     }
 }
